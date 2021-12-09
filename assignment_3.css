@@ -1,6 +1,7 @@
 .middle {
   margin: auto;
-  width: 40%;
+  width: 600px;
+  border-spacing: 0;
 }
 .center {
   text-align: center;
@@ -15,13 +16,13 @@ td {
   border-spacing: 1px;
 }
 .green_color {
-  background-color: green;
+  background-color: #33cc33;
 }
 .blue_color {
-  background-color: blue;
+  background-color: #334899;
 }
 .width {
-  width: 50%;
+  width: 60%;
 }
 td.image {
   width: 250px;
