@@ -14,10 +14,10 @@ td {
   border: 1px solid black;
   border-spacing: 1px;
 }
-.green {
+.green_color {
   background-color: green;
 }
-.blue {
+.blue_color {
   background-color: blue;
 }
 .width {
