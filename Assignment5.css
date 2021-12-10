@@ -1,0 +1,61 @@
+body {
+  background-color: #cbd6cb;
+}
+.container {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+}
+.image {
+  width: 1000px;
+  height: 250px;
+  background-image: url(https://www2.d125.org/applied_arts/teched/courses/RA_old/images/RAheader1.gif);
+}
+.adobe {
+  width: 1000px;
+  height: 50px;
+}
+.smallbox {
+  height: 700px;
+  width: 200px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.bigbox {
+  font-size: 20px;
+  height: 700px;
+  width: 560px;
+  text-align: center;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.inline {
+  display: inline-flex;
+}
+.division {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+.one {
+  height: 230px;
+}
+.two {
+  height: 500px;
+}
+.center {
+  margin-top: 25px;
+}
+.ordered_list {
+  line-height: 200%;
+  list-style-position: inside;
+}
+.margin1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
