@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(73, 155, 236);
+  margin-top: 10rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.main-form {
+  padding-top: 1.5rem;
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  background-color: white;
+  align-content: center;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+  box-shadow: 3px 3px 5px 3px rgb(158, 152, 152);
+  border-radius: 10px;
+}
+
+i {
+  color: rgb(47, 152, 221);
+}
+.text-box {
+  border: 1px solid rgb(230, 225, 225);
+  border-radius: 5px;
+  background-color: rgb(228, 224, 224);
+  height: 2rem;
+  width: 60%;
+}
+button {
+  background-color: rgb(122, 193, 240);
+  border: none;
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  color: white;
+  cursor: pointer;
+}
+a {
+  font-size: 12px;
+}
+.foot-note {
+  align-content: center;
+  background-color: rgb(206, 197, 197);
+  border-radius: 0 0 10px 10px;
+}
