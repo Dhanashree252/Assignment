@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Serif+4&display=swap');
+
+:root{
+    --textarea-font : 'Oswald', sans-serif;
+    --quote-font : 'Source Serif 4', sans-serif;
+}
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Source Serif 4', sans-serif; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    min-height: 100vh;
+    background-color: #C5DCA0;
+}
+
+
+.outer-container{
+    background-color: #F5F2B8;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.timer{
+    position: absolute;
+    top: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.quote{
+    font-family: var(--quote-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+
+.quote-textbox{
+    background-color: #F5F2B8;
+    border: 2px solid #cac782;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    overflow: auto;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+
+.final{
+    text-align: center;
+    font-family: var(--quote-font);
+    font-size: 2rem;
+    font-weight: bolder;
+    /* background-color: red; */
+    height: 2rem;
+    max-height: 100px;
+    position: absolute;
+    top: 1rem;
+}
+
+.quote-textbox:focus{
+    background-color: #F9DAD0;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline red;
+}
