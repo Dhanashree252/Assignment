@@ -1,0 +1,22 @@
+.btn{
+    display:block;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+}
+
+input[type = text]{
+    background-color: rgb(177, 179, 241);
+}
+
+input[type = text]:focus{
+    background-color: rgb(238, 161, 215);
+    font-weight: bold;
+    font-size: large;
+}
+
+.table th{
+    background-color:rgb(58, 64, 226);
+}
