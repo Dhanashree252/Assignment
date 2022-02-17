@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(109, 138, 67);
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.lists{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    overflow-x: scroll;
+    /* background-color: blue; */
+}
+
+.lists .list{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+
+    width: 100%;
+    min-width: 250px;
+    max-width: 350px;
+    height: 100%;
+    min-height: 150px;
+    /* background-color: red; */
+    margin: 10px;
+    /* margin: 5/px, 15px; */
+    background-color: rgba(0,0,0,0.1);
+    
+    padding: 8px;
+    transition: all 0.2s linear;
+}
+
+.lists .list .list-item{
+    background-color: rgb(212, 231, 102);
+    border-radius: 8px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 2px;
+}
